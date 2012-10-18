@@ -1,0 +1,10 @@
+*.class
+bin/
+
+# Maven Directory #
+target/
+
+# Package Files #
+*.jar
+*.war
+*.ear
