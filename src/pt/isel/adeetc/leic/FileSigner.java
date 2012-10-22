@@ -64,9 +64,11 @@ public class FileSigner {
             fileInputStream = new FileInputStream( file );
             byte[] buffer = new byte[ BYTE_BUFFER_LENGTH ];
             int bytesRead;
+            
             while ( (bytesRead = fileInputStream.read( buffer, 0, BYTE_BUFFER_LENGTH )) != -1 ) {
                 sign.update( buffer, 0, bytesRead );
             }
+            
             byte[] signatureBytes = sign.sign();
             String filePath = file.getAbsolutePath();
             filePath = filePath.substring( 0, filePath.lastIndexOf( File.separator ) );
@@ -75,8 +77,8 @@ public class FileSigner {
 
             fileOutputStream.close();
 
-            fileOutputStream = new FileOutputStream( filePath + "/" + file.getName() + ".pub" );
-            fileOutputStream.write( keyPair.getPublic().getEncoded() );
+            fileOutputStream = new FileOutputStream( filePath + "/" + file.getName() + ".cer" );
+            fileOutputStream.write( cert.getEncoded() );
             fileOutputStream.close();
             return true;
         } catch ( IOException e ) {

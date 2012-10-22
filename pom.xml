@@ -17,10 +17,13 @@
         <artifactId>junit</artifactId>
         <version>4.10</version>
         <scope>test</scope>
-      </dependency>      
+      </dependency>
+      <dependency>
+		<groupId>commons-io</groupId>
+		<artifactId>commons-io</artifactId>
+		<version>2.4</version>
+	  </dependency>
   </dependencies>
-  
-  
   
   <build>
     <sourceDirectory>src</sourceDirectory>
