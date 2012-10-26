@@ -22,13 +22,13 @@ public class FileVerifier {
      * @param args
      */
 
-    private static final String X509_TYPE = "X.509";
+    public static final String X509_TYPE = "X.509";
 
     private CertStore           certChain;
     private KeyStore            anchors;
 
     public FileVerifier( CertStore certStoreChain, KeyStore anchors ) {
-        certChain = certStoreChain;
+        this.certChain = certStoreChain;
         this.anchors = anchors;
     }
 
@@ -64,12 +64,14 @@ public class FileVerifier {
         X509CertSelector selector = new X509CertSelector();
         selector.setCertificate( certificate );
 
+        // This is the only supported CertPathBuilder Instance Type
         CertPathBuilder certPathBuilder = CertPathBuilder.getInstance( "PKIX" );
         
         PKIXBuilderParameters pkixBuilderParameters = new PKIXBuilderParameters( anchors, selector );
         pkixBuilderParameters.addCertStore( certChain );
         
         // This option must be used if we're using Self-Signed Certificates
+        // And since that is the case
         pkixBuilderParameters.setRevocationEnabled( false );
 
         CertPathBuilderResult result = certPathBuilder.build( pkixBuilderParameters );
