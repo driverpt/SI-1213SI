@@ -1,0 +1,5 @@
+D:\dev\isel\si\Serie02\RBAC-Solution\RBAC.Core\bin\Debug\RBAC.Core.dll
+D:\dev\isel\si\Serie02\RBAC-Solution\RBAC.Core\bin\Debug\RBAC.Core.pdb
+D:\dev\isel\si\Serie02\RBAC-Solution\RBAC.Core\obj\Debug\ResolveAssemblyReference.cache
+D:\dev\isel\si\Serie02\RBAC-Solution\RBAC.Core\obj\Debug\RBAC.Core.dll
+D:\dev\isel\si\Serie02\RBAC-Solution\RBAC.Core\obj\Debug\RBAC.Core.pdb

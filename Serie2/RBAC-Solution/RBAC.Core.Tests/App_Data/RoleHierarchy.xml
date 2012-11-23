@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<RoleHierarchy>
+  
+  <!-- Level 1 -->
+  <RoleChilds Id="1">
+    <Role Id="2" />
+    <Role Id="3" />
+    <Role Id="4" />
+  </RoleChilds>
+
+    <!-- Level 2 -->
+    <RoleChilds Id="2">
+      <Role Id="5" />
+    </RoleChilds>
+
+    <RoleChilds Id="3">
+      <Role Id="6" />
+      <Role Id="7" />
+    </RoleChilds>
+
+    <RoleChilds Id="7">
+      <Role Id="11" />
+      <Role Id="12" />
+    </RoleChilds>
+
+    <RoleChilds Id="4">
+      <Role Id="8" />
+      <Role Id="9" />
+      <Role Id="10" />
+    </RoleChilds>
+
+    <RoleChilds Id="12">
+      <Role Id="13" />
+    </RoleChilds>
+  
+</RoleHierarchy>

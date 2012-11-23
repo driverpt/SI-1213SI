@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="320a4955-50a0-4810-bf67-7a54f43b3b51" name="jf@JFVAIO 2012-11-18 23:44:56" runUser="jfVaio\jf" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="43b0e945-6974-4c05-930e-1644df3278b2">
+    <Deployment runDeploymentRoot="jf_JFVAIO 2012-11-18 23_44_56">
+      <DeploymentItem filename="D:\dev\isel\si\Serie02\RBAC-Solution\RBAC.Core\bin\Debug\RBAC.Core.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-11-18T23:44:56.8020714+00:00" queuing="2012-11-18T23:44:57.0828719+00:00" start="2012-11-18T23:44:57.1296719+00:00" finish="2012-11-18T23:44:57.4728725+00:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Roles_Defined_In_Restriction_Object_Cant_Exist_At_Same_Time" storage="d:\dev\isel\si\serie02\rbac-solution\rbac.core.tests\bin\debug\rbac.core.tests.dll" id="77fa2d56-4efd-0e72-042f-3ab2fc114a54">
+      <Execution id="9b638504-a48f-48af-9794-c1072367c200" />
+      <TestMethod codeBase="D:/dev/isel/si/Serie02/RBAC-Solution/RBAC.Core.Tests/bin/Debug/RBAC.Core.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RBAC.Core.Tests.Entities.RestrictionTests, RBAC.Core.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Roles_Defined_In_Restriction_Object_Cant_Exist_At_Same_Time" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="77fa2d56-4efd-0e72-042f-3ab2fc114a54" executionId="9b638504-a48f-48af-9794-c1072367c200" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9b638504-a48f-48af-9794-c1072367c200" testId="77fa2d56-4efd-0e72-042f-3ab2fc114a54" testName="Roles_Defined_In_Restriction_Object_Cant_Exist_At_Same_Time" computerName="JFVAIO" duration="00:00:00.0266685" startTime="2012-11-18T23:44:57.1920720+00:00" endTime="2012-11-18T23:44:57.4260725+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b638504-a48f-48af-9794-c1072367c200">
+    </UnitTestResult>
+  </Results>
+</TestRun>

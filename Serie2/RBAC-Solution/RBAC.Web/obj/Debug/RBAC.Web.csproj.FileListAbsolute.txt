@@ -1,0 +1,5 @@
+D:\dev\isel\si\Serie02\RBAC-Solution\RBAC.Web\bin\RBAC.Web.dll
+D:\dev\isel\si\Serie02\RBAC-Solution\RBAC.Web\bin\RBAC.Web.pdb
+D:\dev\isel\si\Serie02\RBAC-Solution\RBAC.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\dev\isel\si\Serie02\RBAC-Solution\RBAC.Web\obj\Debug\RBAC.Web.dll
+D:\dev\isel\si\Serie02\RBAC-Solution\RBAC.Web\obj\Debug\RBAC.Web.pdb

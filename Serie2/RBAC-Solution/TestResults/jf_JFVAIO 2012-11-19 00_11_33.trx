@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8a46d3d6-0636-41f3-b452-0afb2a43c0db" name="jf@JFVAIO 2012-11-19 00:11:33" runUser="jfVaio\jf" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="08e69b77-1c5f-4df1-ab97-ccb7ac106e4f">
+    <Deployment userDeploymentRoot="D:\dev\isel\si\Serie02\RBAC-Solution\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="jf_JFVAIO 2012-11-19 00_11_33">
+      <DeploymentItem filename="D:\dev\isel\si\Serie02\RBAC-Solution\RBAC.Core\bin\Debug\RBAC.Core.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-11-19T00:11:33.1443488+00:00" queuing="2012-11-19T00:11:34.4547511+00:00" start="2012-11-19T00:11:34.5951514+00:00" finish="2012-11-19T00:12:02.7844009+00:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="JFVAIO" outcome="Error" timestamp="2012-11-19T00:12:02.7844009+00:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="User_Session_With_Child_Role_And_Permission_To_Access" storage="d:\dev\isel\si\serie02\rbac-solution\rbac.core.tests\bin\debug\rbac.core.tests.dll" id="83ae8fc0-786f-b937-8849-0d88b3db4e54">
+      <Execution id="d5dff712-c330-4c39-b818-49b125c014b9" />
+      <TestMethod codeBase="D:/dev/isel/si/Serie02/RBAC-Solution/RBAC.Core.Tests/bin/Debug/RBAC.Core.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RBAC.Core.Tests.RBACHelperTests, RBAC.Core.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="User_Session_With_Child_Role_And_Permission_To_Access" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="83ae8fc0-786f-b937-8849-0d88b3db4e54" executionId="d5dff712-c330-4c39-b818-49b125c014b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d5dff712-c330-4c39-b818-49b125c014b9" testId="83ae8fc0-786f-b937-8849-0d88b3db4e54" testName="User_Session_With_Child_Role_And_Permission_To_Access" computerName="JFVAIO" duration="00:00:28.0800494" startTime="2012-11-19T00:11:34.7043515+00:00" endTime="2012-11-19T00:12:02.7844009+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5dff712-c330-4c39-b818-49b125c014b9">
+    </UnitTestResult>
+  </Results>
+</TestRun>

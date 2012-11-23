@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<PermissionAssigments>
+  
+  <Relationship RoleId="1" PermissionId="1" /> <!-- Role 1 - Permission 1 -->
+  <Relationship RoleId="2" PermissionId="3" /> <!-- Role 2 - Permission 3 -->
+  <Relationship RoleId="8" PermissionId="5" /> <!-- Role 8 - Permission 5 -->
+
+  <Relationship RoleId="11" PermissionId="1" /> <!-- Role 8 - Permission 5 -->
+  
+</PermissionAssigments>

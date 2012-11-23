@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Permissions>
+  <Permission Id="1" Description="Permission 1" />
+  <Permission Id="2" Description="Permission 2" />
+  <Permission Id="3" Description="Permission 3" />
+  <Permission Id="4" Description="Permission 4" />
+  <Permission Id="5" Description="Permission 5" />
+</Permissions>

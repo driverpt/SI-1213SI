@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="daa09fe2-8648-430e-9aed-a6f503dc5a3b" name="jf@JFVAIO 2012-11-23 18:59:39" runUser="jfVaio\jf" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="c2447013-6b4a-48ff-9239-68d9370c4228">
+    <Deployment runDeploymentRoot="jf_JFVAIO 2012-11-23 18_59_39">
+      <DeploymentItem filename="D:\dev\isel\si\Serie02\RBAC-Solution\RBAC.Core\bin\Debug\RBAC.Core.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-11-23T18:59:39.1855359+00:00" queuing="2012-11-23T18:59:40.3686036+00:00" start="2012-11-23T18:59:40.4936107+00:00" finish="2012-11-23T18:59:48.7090806+00:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Factory_CreateSession" storage="d:\dev\isel\si\serie02\rbac-solution\rbac.core.tests\bin\debug\rbac.core.tests.dll" id="b7992c18-c560-1584-f27b-461a6e5a4236">
+      <Execution id="42124d0b-f18d-4b43-ab76-baf38316519c" />
+      <TestMethod codeBase="D:/dev/isel/si/Serie02/RBAC-Solution/RBAC.Core.Tests/bin/Debug/RBAC.Core.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RBAC.Core.Tests.RBACHelperTests, RBAC.Core.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Factory_CreateSession" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b7992c18-c560-1584-f27b-461a6e5a4236" executionId="42124d0b-f18d-4b43-ab76-baf38316519c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="42124d0b-f18d-4b43-ab76-baf38316519c" testId="b7992c18-c560-1584-f27b-461a6e5a4236" testName="Factory_CreateSession" computerName="JFVAIO" duration="00:00:07.3325455" startTime="2012-11-23T18:59:40.6076173+00:00" endTime="2012-11-23T18:59:48.6450770+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="42124d0b-f18d-4b43-ab76-baf38316519c">
+    </UnitTestResult>
+  </Results>
+</TestRun>

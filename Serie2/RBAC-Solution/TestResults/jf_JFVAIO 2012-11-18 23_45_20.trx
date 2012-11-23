@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="02000d41-4a8b-4a04-af03-27bcf9cfbea3" name="jf@JFVAIO 2012-11-18 23:45:20" runUser="jfVaio\jf" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="5a992382-edae-405a-94d0-5bf947414a9c">
+    <Deployment runDeploymentRoot="jf_JFVAIO 2012-11-18 23_45_20">
+      <DeploymentItem filename="D:\dev\isel\si\Serie02\RBAC-Solution\RBAC.Core\bin\Debug\RBAC.Core.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-11-18T23:45:20.2685344+00:00" queuing="2012-11-18T23:45:21.4853366+00:00" start="2012-11-18T23:45:21.6101368+00:00" finish="2012-11-18T23:46:23.5993050+00:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="5" executed="3" passed="2" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="2" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="JFVAIO" outcome="Error" timestamp="2012-11-18T23:46:23.5973049+00:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="User_Session_Without_Role_Cant_Access" storage="d:\dev\isel\si\serie02\rbac-solution\rbac.core.tests\bin\debug\rbac.core.tests.dll" id="c082c9a0-8064-5c7d-a2c2-65d600474842">
+      <Execution id="65de5ca5-27c8-47a0-a258-01c88577a2d9" />
+      <TestMethod codeBase="D:/dev/isel/si/Serie02/RBAC-Solution/RBAC.Core.Tests/bin/Debug/RBAC.Core.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RBAC.Core.Tests.RBACHelperTests, RBAC.Core.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="User_Session_Without_Role_Cant_Access" />
+    </UnitTest>
+    <UnitTest name="User_Session_Without_Child_Role_Cant_Access" storage="d:\dev\isel\si\serie02\rbac-solution\rbac.core.tests\bin\debug\rbac.core.tests.dll" id="1665c9b2-f7ad-5a89-c6bf-49e18c201fec">
+      <Execution id="2d6c2f52-a35c-40de-a3f4-f343206c4d2e" />
+      <TestMethod codeBase="D:/dev/isel/si/Serie02/RBAC-Solution/RBAC.Core.Tests/bin/Debug/RBAC.Core.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RBAC.Core.Tests.RBACHelperTests, RBAC.Core.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="User_Session_Without_Child_Role_Cant_Access" />
+    </UnitTest>
+    <UnitTest name="User_Session_With_Role_And_Permission_To_Access" storage="d:\dev\isel\si\serie02\rbac-solution\rbac.core.tests\bin\debug\rbac.core.tests.dll" id="b36f11f2-34ed-197f-8336-e1064b0eb6d8">
+      <Execution id="cbb5d14f-56c9-4686-956b-506a3ffa7dd4" />
+      <TestMethod codeBase="D:/dev/isel/si/Serie02/RBAC-Solution/RBAC.Core.Tests/bin/Debug/RBAC.Core.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RBAC.Core.Tests.RBACHelperTests, RBAC.Core.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="User_Session_With_Role_And_Permission_To_Access" />
+    </UnitTest>
+    <UnitTest name="UserManager_Returns_All_Roles_Hierarchy" storage="d:\dev\isel\si\serie02\rbac-solution\rbac.core.tests\bin\debug\rbac.core.tests.dll" id="f81c62bb-8284-ee53-c496-315899b23d9f">
+      <Execution id="515b5bbb-bd35-49ed-90d4-eec9d55b3f9b" />
+      <TestMethod codeBase="D:/dev/isel/si/Serie02/RBAC-Solution/RBAC.Core.Tests/bin/Debug/RBAC.Core.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RBAC.Core.Tests.RBACHelperTests, RBAC.Core.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UserManager_Returns_All_Roles_Hierarchy" />
+    </UnitTest>
+    <UnitTest name="User_Session_With_Child_Role_And_Permission_To_Access" storage="d:\dev\isel\si\serie02\rbac-solution\rbac.core.tests\bin\debug\rbac.core.tests.dll" id="83ae8fc0-786f-b937-8849-0d88b3db4e54">
+      <Execution id="c38b3c37-036c-4be7-8013-861278134df9" />
+      <TestMethod codeBase="D:/dev/isel/si/Serie02/RBAC-Solution/RBAC.Core.Tests/bin/Debug/RBAC.Core.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RBAC.Core.Tests.RBACHelperTests, RBAC.Core.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="User_Session_With_Child_Role_And_Permission_To_Access" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1665c9b2-f7ad-5a89-c6bf-49e18c201fec" executionId="2d6c2f52-a35c-40de-a3f4-f343206c4d2e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="83ae8fc0-786f-b937-8849-0d88b3db4e54" executionId="c38b3c37-036c-4be7-8013-861278134df9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b36f11f2-34ed-197f-8336-e1064b0eb6d8" executionId="cbb5d14f-56c9-4686-956b-506a3ffa7dd4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c082c9a0-8064-5c7d-a2c2-65d600474842" executionId="65de5ca5-27c8-47a0-a258-01c88577a2d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f81c62bb-8284-ee53-c496-315899b23d9f" executionId="515b5bbb-bd35-49ed-90d4-eec9d55b3f9b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2d6c2f52-a35c-40de-a3f4-f343206c4d2e" testId="1665c9b2-f7ad-5a89-c6bf-49e18c201fec" testName="User_Session_Without_Child_Role_Cant_Access" computerName="JFVAIO" duration="00:00:12.0411947" startTime="2012-11-18T23:45:21.7193370+00:00" endTime="2012-11-18T23:45:34.4429806+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2d6c2f52-a35c-40de-a3f4-f343206c4d2e">
+    </UnitTestResult>
+    <UnitTestResult executionId="c38b3c37-036c-4be7-8013-861278134df9" testId="83ae8fc0-786f-b937-8849-0d88b3db4e54" testName="User_Session_With_Child_Role_And_Permission_To_Access" computerName="JFVAIO" duration="00:00:09.1817329" startTime="2012-11-18T23:45:34.4429806+00:00" endTime="2012-11-18T23:45:43.6396041+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c38b3c37-036c-4be7-8013-861278134df9">
+    </UnitTestResult>
+    <UnitTestResult executionId="cbb5d14f-56c9-4686-956b-506a3ffa7dd4" testId="b36f11f2-34ed-197f-8336-e1064b0eb6d8" testName="User_Session_With_Role_And_Permission_To_Access" computerName="JFVAIO" duration="00:00:39.9366996" startTime="2012-11-18T23:45:43.6626054+00:00" endTime="2012-11-18T23:46:23.5993050+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cbb5d14f-56c9-4686-956b-506a3ffa7dd4">
+    </UnitTestResult>
+    <UnitTestResult executionId="65de5ca5-27c8-47a0-a258-01c88577a2d9" testId="c082c9a0-8064-5c7d-a2c2-65d600474842" testName="User_Session_Without_Role_Cant_Access" computerName="JFVAIO" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="65de5ca5-27c8-47a0-a258-01c88577a2d9">
+    </UnitTestResult>
+    <UnitTestResult executionId="515b5bbb-bd35-49ed-90d4-eec9d55b3f9b" testId="f81c62bb-8284-ee53-c496-315899b23d9f" testName="UserManager_Returns_All_Roles_Hierarchy" computerName="JFVAIO" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="515b5bbb-bd35-49ed-90d4-eec9d55b3f9b">
+    </UnitTestResult>
+  </Results>
+</TestRun>

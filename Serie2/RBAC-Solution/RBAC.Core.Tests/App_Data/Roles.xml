@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Roles>
+  <Role Id="1"  Name="Role 1" />
+  <Role Id="2"  Name="Role 2" />
+  <Role Id="3"  Name="Role 3" />
+  <Role Id="4"  Name="Role 4" />
+  <Role Id="5"  Name="Role 5" />
+  <Role Id="6"  Name="Role 6" />
+  <Role Id="7"  Name="Role 7" />
+  <Role Id="8"  Name="Role 8" />
+  <Role Id="9"  Name="Role 9" />
+  <Role Id="10" Name="Role 10" />
+  <Role Id="11" Name="Role 11" />
+  <Role Id="12" Name="Role 12" />
+  <Role Id="13" Name="Role 13" />
+</Roles>
