@@ -1,0 +1,7 @@
+D:\dev\temp\CustomToken\C#\PassiveSTS\bin\PassiveSTS.dll
+D:\dev\temp\CustomToken\C#\PassiveSTS\bin\PassiveSTS.pdb
+D:\dev\temp\CustomToken\C#\PassiveSTS\bin\SimpleWebToken.dll
+D:\dev\temp\CustomToken\C#\PassiveSTS\bin\SimpleWebToken.pdb
+D:\dev\temp\CustomToken\C#\PassiveSTS\obj\Debug\PassiveSTS.csprojResolveAssemblyReference.cache
+D:\dev\temp\CustomToken\C#\PassiveSTS\obj\Debug\PassiveSTS.dll
+D:\dev\temp\CustomToken\C#\PassiveSTS\obj\Debug\PassiveSTS.pdb

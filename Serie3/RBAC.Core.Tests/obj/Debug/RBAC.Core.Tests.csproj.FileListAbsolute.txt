@@ -1,0 +1,9 @@
+D:\dev\isel\si\Serie02\RBAC-Solution\RBAC.Core.Tests\bin\Debug\RBAC.Core.Tests.dll
+D:\dev\isel\si\Serie02\RBAC-Solution\RBAC.Core.Tests\bin\Debug\RBAC.Core.Tests.pdb
+D:\dev\isel\si\Serie02\RBAC-Solution\RBAC.Core.Tests\obj\Debug\ResolveAssemblyReference.cache
+D:\dev\isel\si\Serie02\RBAC-Solution\RBAC.Core.Tests\obj\Debug\RBAC.Core.Tests.dll
+D:\dev\isel\si\Serie02\RBAC-Solution\RBAC.Core.Tests\obj\Debug\RBAC.Core.Tests.pdb
+D:\dev\isel\si\Serie02\RBAC-Solution\RBAC.Core.Tests\bin\Debug\App_Data\Users.xml
+D:\dev\isel\si\Serie02\RBAC-Solution\RBAC.Core.Tests\bin\Debug\RBAC.Core.dll
+D:\dev\isel\si\Serie02\RBAC-Solution\RBAC.Core.Tests\bin\Debug\RBAC.Core.pdb
+D:\dev\isel\si\Serie02\RBAC-Solution\RBAC.Core.Tests\bin\Debug\RBAC.Core.Tests.dll.config

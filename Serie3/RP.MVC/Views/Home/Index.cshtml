@@ -1,0 +1,36 @@
+﻿@model RP.MVC.Models.ClaimsPrincipalModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <fieldset>
+        <legend>ClaimsPrincipalModel</legend>
+
+        <ul>
+            @foreach (var item in Model.Claims)
+            {
+                <li>@item</li>
+            }
+
+        </ul>
+
+        <p>
+            @Html.ActionLink("Link Test 1", "Configuration", "Home")
+        </p>
+        <p>
+            @Html.ActionLink("Link Test 2", "List", "Home")
+        </p>
+
+    </fieldset>
+
+</body>
+</html>

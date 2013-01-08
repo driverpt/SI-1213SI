@@ -1,0 +1,8 @@
+D:\dev\temp\CustomToken\C#\SimpleWebToken\bin\Debug\CustomToken.dll
+D:\dev\temp\CustomToken\C#\SimpleWebToken\bin\Debug\CustomToken.pdb
+D:\dev\temp\CustomToken\C#\SimpleWebToken\obj\Debug\CustomToken.dll
+D:\dev\temp\CustomToken\C#\SimpleWebToken\obj\Debug\CustomToken.pdb
+D:\dev\temp\CustomToken\C#\CustomToken\bin\Debug\CustomToken.dll
+D:\dev\temp\CustomToken\C#\CustomToken\bin\Debug\CustomToken.pdb
+D:\dev\temp\CustomToken\C#\CustomToken\obj\Debug\CustomToken.dll
+D:\dev\temp\CustomToken\C#\CustomToken\obj\Debug\CustomToken.pdb

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<UserAssigments>
+  
+  <!-- User 1 -->
+  <Relationship UserId="1" RoleId="1" /> <!-- User 1 - Role 1 -->
+  <Relationship UserId="1" RoleId="2" /> <!-- User 1 - Role 2 -->
+  <Relationship UserId="1" RoleId="10" /> <!-- User 1 - Role 10 -->
+
+  <!-- User 2 -->
+  <Relationship UserId="2" RoleId="3" /> <!-- User 2 - Role 3 -->
+  
+</UserAssigments>

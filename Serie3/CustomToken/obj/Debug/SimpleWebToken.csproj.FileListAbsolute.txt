@@ -1,0 +1,5 @@
+D:\dev\temp\CustomToken\C#\SimpleWebToken\bin\Debug\SimpleWebToken.dll
+D:\dev\temp\CustomToken\C#\SimpleWebToken\bin\Debug\SimpleWebToken.pdb
+D:\dev\temp\CustomToken\C#\SimpleWebToken\obj\Debug\SimpleWebToken.dll
+D:\dev\temp\CustomToken\C#\SimpleWebToken\obj\Debug\SimpleWebToken.pdb
+D:\dev\temp\CustomToken\C#\SimpleWebToken\obj\Debug\SimpleWebToken.csprojResolveAssemblyReference.cache
